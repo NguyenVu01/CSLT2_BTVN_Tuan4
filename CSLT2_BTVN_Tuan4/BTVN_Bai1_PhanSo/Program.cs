@@ -3,7 +3,7 @@ using System.Text;
 
 public class PhanSo
 {
-    int Tu, Mau;
+    public int Tu, Mau;
     //Nạp chồng các phương thức khởi tạo (constructor)
     public PhanSo()
     {
@@ -58,26 +58,66 @@ public class PhanSo
         PhanSo KetQua = new PhanSo(TS, MS);
         return KetQua;
     }
+    private int UCNN(int x, int y)
+    {
+        if (x == 0) return y;
+        return UCNN(y % x, x);
+    }
+    public void RutGon()
+    {
+        int x = this.UCNN(Tu, Mau);
+        this.Tu = this.Tu / x;
+        this.Mau = this.Mau / x;
+    }
 }
 class Program
 {
     static void Main(string[] args)
     {
-        PhanSo p1 = new PhanSo();
+        //Tao phan so voi constructor khong tham so
+        PhanSo p0 = new PhanSo();
+        p0.In();
+
+        //Tao phan so voi constructor co 1 tham so
+        PhanSo p1 = new PhanSo(5);
         p1.In();
-        PhanSo p2 = new PhanSo(5);
-        p2.In();
+
+        //Tao phan so voi constructor co 2 tham so nhap vao tu ban phim
         Console.WriteLine("nhap tu so: ");
         int ts = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("nhap mau so: ");
         int ms = Convert.ToInt32(Console.ReadLine());
-        PhanSo p3 = new PhanSo(ts, ms);
-        p3.In();
-        Console.WriteLine("Cong phan so:");
-        PhanSo kq = new PhanSo(); 
-        kq = p1.Tru(p2);
-        Console.Write("kq cua p1 - p2 = ");
-        kq.In();
+        PhanSo p2 = new PhanSo(ts, ms);
+        p2.In();
+
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
+        //Phep cong 
+        p0 = p1.Cong(p2);
+        p0.RutGon();
+        Console.WriteLine("Sau khi cong 2 phan so:");
+        p0.In();
+
+        Console.ForegroundColor = ConsoleColor.DarkRed;
+        //Phep tru 
+        p0 = p2.Tru(p1);
+        p0.RutGon();
+        Console.WriteLine("Sau khi tru 2 phan so:");
+        p0.In();
+
+        Console.ForegroundColor = ConsoleColor.DarkBlue;
+        //Phep nhan 
+        p0 = p2.Nhan(p1);
+        p0.RutGon();
+        Console.WriteLine("Sau khi nhan 2 phan so:");
+        p0.In();
+
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        //Phep chia
+        Console.WriteLine("Sau khi chia 2 phan so:");
+        p0 = p1.Chia(p2);
+        p0.RutGon();
+        p0.In();
+
         Console.ReadLine();
     }
 }
