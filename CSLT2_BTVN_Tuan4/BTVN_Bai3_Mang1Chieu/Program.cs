@@ -17,15 +17,14 @@ namespace Mang1Chieu
         private int n; //So phan tu cua mang 1 chieu
         int[]? a; //Mang 1 chieu 
 
+        public Mang(int x)
+        {
+            n = x;
+            this.a = new int[n];
+        }
         public void NhapMang()
         {
-            Console.WriteLine("Nhap so phan tu co trong mang:");
-            n = Convert.ToInt32(Console.ReadLine());
-            while(n <= 0)
-            {
-                Console.WriteLine("Hay nhap lai so phan tu n >= 0:");
-            }
-            a = new int[n];
+ 
             Console.WriteLine("Bat dau nhap mang:");
             for(int i = 0; i < n; i++)
             {
@@ -67,7 +66,7 @@ namespace Mang1Chieu
     {
         static void Main(string[] args)
         {
-            Mang a = new Mang();
+            Mang a = new Mang(5);
             a.NhapMang();
             a.Xuat();
             a.SapXep(0);
