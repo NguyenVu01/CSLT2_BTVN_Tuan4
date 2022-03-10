@@ -1,0 +1,15 @@
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\bin\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.exe
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\bin\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.deps.json
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\bin\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.runtimeconfig.json
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\bin\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.dll
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\bin\Debug\net6.0\ref\BTVN_Bai2_KhongGian2Chieu.dll
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\bin\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.pdb
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\obj\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.csproj.AssemblyReference.cache
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\obj\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.GeneratedMSBuildEditorConfig.editorconfig
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\obj\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.AssemblyInfoInputs.cache
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\obj\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.AssemblyInfo.cs
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\obj\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.csproj.CoreCompileInputs.cache
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\obj\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.dll
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\obj\Debug\net6.0\ref\BTVN_Bai2_KhongGian2Chieu.dll
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\obj\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.pdb
+D:\anh trai\Code C#\BTVN_Bai2_KhongGian2Chieu\obj\Debug\net6.0\BTVN_Bai2_KhongGian2Chieu.genruntimeconfig.cache
